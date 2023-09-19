@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    height: 130vh;
+    background-image: url('../../images/auth-bg.jpg');
+    
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+
+
+
+
+
+
+  
+  .login-box {
+    width: 415px;
+    padding: 20px;
+    background-color: white;
+    
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the width of the logo as needed */
+    height: 100px; /* Adjust the height of the logo as needed */
+  }
+  
+  .corner {
+    position: relative;
+  }
+  .corner1 {
+    position: relative;
+  }
+  
+  .upper-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px; /* Adjust the width of the logo as needed */
+    height: 100px;
+  }
+  
+  .upper-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px; /* Adjust the width of the logo as needed */
+    height: 100px;
+  }
+
+  .lower-left {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100px; /* Adjust the width of the logo as needed */
+    height: 100px;
+  }
+  
+  .lower-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px; /* Adjust the width of the logo as needed */
+    height: 100px;
+  }
